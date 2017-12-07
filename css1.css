@@ -1,0 +1,99 @@
+h1{
+color: green;
+}
+
+*{
+font-family: tahoma;
+}
+
+a{
+color: #0074A2;
+}
+
+body{
+background: #E5E5E5;
+}
+
+.bar{
+color: red;
+}
+
+.bar > b{
+color: #FF3399;
+}
+
+.bar > a:hover{
+color: #003300;
+}
+
+.bold{
+font-weight: bold;
+}
+
+.italic{
+font-style: italic;
+}
+
+.underline{
+text-decoration: underline;
+}
+
+.container {
+background: white;
+width: 1000px;
+text-align: center;
+padding: 1px;
+}
+
+.header{
+background: #BCBE97;
+margin:20px;
+padding:10px;
+height:50px;
+text-align:right;
+font-style:italic;
+}
+
+.footer{
+background: #F2F2F2;
+margin:20px;
+padding:10px;
+height:40px;
+text-align:center;
+}
+
+.flower{
+border: 2px solid green;
+height:30px;
+overflow: hidden;
+}
+
+.flower > img {
+height: 50px;
+margin-left: 50px;
+border: 2px solid blue;
+float: left;
+}
+
+.navigation{
+margin:20px;
+padding:10px;
+border-top: 1px solid #EDEDED;
+border-bottom: 1px solid #EDEDED;
+}
+
+.content{
+padding:20px;
+}
+
+.contact-form{
+width:700px;
+text-align: center;
+padding:10px;
+/* background: gray; */
+border: 2px solid #444;
+}
+
+.contact-form > h1{
+color: #403E3F;
+}
